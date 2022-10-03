@@ -1,0 +1,13 @@
+
+.drawForm {
+    width : 50%;
+    margin-right: 33px;
+}
+
+.drawForm input {
+    border-radius: 0.5em 0em 0em 0.5em;
+}
+
+.drawForm button {
+    border-radius: 0em 0.5em 0.5em 0em;
+}

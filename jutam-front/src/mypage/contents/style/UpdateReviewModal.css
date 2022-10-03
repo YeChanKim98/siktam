@@ -1,0 +1,103 @@
+.simpleReviewUpdateModal {
+    display: none;
+    position: fixed;
+    top: -30%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.simpleReviewUpdateModal button {
+    outline: none;
+    cursor: pointer;
+    border: 0;
+}
+.simpleReviewUpdateModal > section {
+    width: 90%;
+    max-width: 550px;
+    margin: 0 auto;
+    border-radius: 0.3rem;
+    background-color: #fff;
+    animation: modal-show 0.5s; /* 모달 애니메이션 */
+    overflow: hidden;
+}
+.simpleReviewUpdateModal > section > header {
+    position: relative;
+    padding: 16px 64px 10px 20px;
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 20pt;
+}
+.simpleReviewUpdateModal > section > header button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 30px;
+    font-size: 22px;
+    font-weight: 900;
+    text-align: center;
+    color: #999;
+    background-color: transparent;
+}
+.simpleReviewUpdateModal > section > main {
+    padding: 16px;
+    border-bottom: 1px solid #dee2e6;
+    border-top: 1px solid #dee2e6;
+    color: black;
+}
+
+.simpleReviewUpdateModal.openModal {
+    display: flex;
+    align-items: center;
+    /* 팝업이 열릴때 스르륵 열리는 효과 */
+    animation: modal-bg-show 0.5s;
+}
+@keyframes modal-show {
+    from {
+    opacity: 0;
+    margin-top: 50px;
+    }
+    to {
+    opacity: 0.8;
+    margin-top: 0;
+    }
+}
+@keyframes modal-bg-show {
+    from {
+    opacity: 0;
+    }
+    to {
+    opacity: 1;
+    }
+}
+
+.updateForm{
+    width:100%;
+}
+
+.placeIdLabel{
+    float: left;
+    margin-top: 15px;
+    padding-left: 10px;
+    width : 90px;
+    font-size: large;
+}
+
+.select{
+    float : left;
+    margin-top: 8px;
+    margin-right: 5px;
+}
+
+.updateContent input{
+    height: 40px !important;
+    width : 420px;
+}
+
+.simpleUpdateSubmit.button.is-primary{
+    float: right;
+    padding : 10px;
+    width:96%;
+    margin: 2% 2% 2% 0;
+}

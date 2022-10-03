@@ -1,0 +1,97 @@
+
+/*작성 폼 : 테두리 크기 등*/
+.writeForm { 
+    border : 1px solid rgb(199, 199, 199);
+}
+
+.showLetter{
+vertical-align: middle;
+}
+
+/*별점*/
+.star-rating {
+    display: flex;
+    margin-left: 15px;
+    flex-direction: row-reverse;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    justify-content: space-around;
+    padding: 0 0.2em;
+    text-align: center;
+    width: 5em;
+}
+
+.star-rating input {
+    display: none;
+}
+
+.star-rating label {
+    -webkit-text-fill-color:rgb(230, 230, 230);
+    cursor: pointer;
+}
+
+.emptyStar{
+    -webkit-text-fill-color:rgb(230, 230, 230);
+}
+
+.pipe{
+    color: rgb(185, 185, 185);
+}
+
+.star-rating :checked ~ label , .fillStar{
+    -webkit-text-fill-color: gold;
+}
+
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+    -webkit-text-fill-color: rgba(250, 239, 123, 0.733)
+}
+
+/*내용 입력칸*/
+.writeForm div textarea{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0px;
+}
+
+/*하이라이트는 다른 방법으로 제거 해야함*/
+.writeForm div textarea:focus{
+    border : none;
+    outline: none !important;
+    /* border: none !important; */
+}
+
+/*글자수 보여주기*/
+.reviewButton{
+    align-content: right;
+    /*글자 높이 가운데 정렬*/
+    padding: 10px;
+    border-top: 1px solid rgb(199, 199, 199);
+    text-align: right;
+    font-weight:bold;
+}
+
+/*각 리뷰 div*/
+.getReview{
+    margin-bottom: 20px;
+}
+
+/*리뷰 유저의 이름, 내용, 날짜*/
+.reviewUser{
+    font-size: 10pt;
+}
+
+.reviewContent{
+    white-space: pre-line;
+}
+
+/*리뷰 목록 중 수정,삭제*/
+.reviewUpdate{
+    font-size: smaller;
+    color: green;
+}
+
+.reviewDelete{
+    font-size: smaller;
+    color: red;
+}

@@ -1,0 +1,103 @@
+
+.indexWrap {
+    width: 100%;
+    height: 100%;
+    /* 배경 크기 자동으로 풀스크린으로 정정 */
+    position: relative;
+    /* border: 5px solid yellow; */
+    animation: fadein 0.8s;
+
+}
+
+.indexWrap::before{
+    content: "";
+    background: url(./indexBackground.jpg);
+    background-size: cover;
+    opacity: 0.65;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+.testText{
+    color: black;
+    position: relative;
+}
+
+
+@keyframes fadeInUp {
+    from{
+        transform: translateY(60px);
+    }
+    to {
+        
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.buttonWrap{
+    opacity: 0;
+    animation: fadeInUp 0.8s ease-in-out;
+    animation-delay : 0.8s;
+    animation-fill-mode: forwards;
+    float: left;
+    width : 50%;
+    height: 100%;
+    /* border : 1px solid green; */
+    position: absolute;
+    text-align: center;
+}
+
+.right{
+    right : 0;
+}
+
+.indexButton{
+    top: 50%;
+    left: 50%;
+    width : 200px;
+    height: 200px;
+    margin-top: -100px;
+    margin-left: -100px;
+    position: absolute;
+    filter: grayscale(100%);
+}
+
+.indexButton:hover{
+    filter: grayscale(0%);
+    transform: scale(1.25)
+}
+
+@media ( max-width: 460px ) { /*모바일 대응*/
+
+    .buttonWrap{
+        opacity: 0;
+        animation: fadeInUp 0.8s ease-in-out;
+        animation-delay : 1.5s;
+        animation-fill-mode: forwards;
+        position: relative;
+        display: flex;
+        width : 100%;
+        height:380px;
+        /* border : 1px solid rebeccapurple; */
+
+    }
+
+    .indexButton{
+        display: block;
+        filter: grayscale(100%);
+    }
+    
+}

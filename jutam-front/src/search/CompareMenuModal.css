@@ -1,0 +1,148 @@
+.modal {
+    width : 100%;
+    display: none;
+    position: fixed;
+    top: -30%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.modal button {
+    outline: none;
+    cursor: pointer;
+    border: 0;
+}
+
+.modal > section {
+    max-width: 1000px;
+}
+
+.modal > section > header {
+    position: relative;
+    padding: 16px 64px 10px 20px;
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 23pt;
+}
+
+.modal > section > header button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 30px;
+    font-size: 23px;
+    font-weight: 900;
+    text-align: center;
+    color: #999;
+    background-color: transparent;
+}
+
+.compareMain {
+    padding: 16px;
+    border-top: 1px solid #dee2e6;
+    color: black;
+}
+
+.compareList{
+    /* height: 200px; */
+}
+
+.rightPartition{
+    border-right:2px solid gray;
+}
+
+.leftPartition{
+    border-left:2px solid gray;
+}
+
+.comparePlace{
+    float: left;
+    width: 50%;
+    padding : 0 10px 0 10px;
+    /* border: 2px solid yellowgreen; */
+}
+
+.comparePlaceName{
+    /* border-bottom: 2px solid gray; */
+    font-size: 18pt;
+}
+
+.menuInfo{
+    margin-bottom: 10px;
+}
+
+.menuName{
+    width : 50%;
+    float : left;
+    font-size: 15pt;
+    /* border : 1px solid black; */
+}
+
+.menuPrice{
+    width : 50%;
+    float : left;
+    font-size: 15pt;
+    text-align: right;
+    /* border : 1px solid violet; */
+}
+
+.eachResult{
+    text-align : right;
+    padding : 0 10px 0 10px;
+    border-top : 2px solid gray;
+}
+
+.floatLeft{
+    float:left;
+    left : 10px;
+}
+
+.eachResult{
+    float: left;
+    width : 50%;
+    /* border: 2px solid red; */
+}
+
+
+
+.compareResult{
+    width: 100%;
+    text-align: right;
+    float : left;   
+    max-width: 1000px;
+    margin-bottom: 10px;
+    border-radius: 0.3rem;
+    background-color: #fff;
+    animation: modal-show 0.5s; 
+    overflow: hidden;
+    border: 2px solid black;
+    font-size: 13pt;
+}
+
+
+.modal.openCompareModal {
+    display: flex;
+    align-items: center;
+    /* 팝업이 열릴때 스르륵 열리는 효과 */
+    animation: modal-bg-show 0.5s;
+}
+@keyframes modal-show {
+    from {
+    opacity: 0;
+    margin-top: 50px;
+    }
+    to {
+    opacity: 1;
+    margin-top: 0;
+    }
+}
+@keyframes modal-bg-show {
+    from {
+    opacity: 0;
+    }
+    to {
+    opacity: 1;
+    }
+}

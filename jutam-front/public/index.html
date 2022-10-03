@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>Ju Tam Service</title>
+    <script type="text/javascript">
+      function closeOverlay(id){
+        const div = document.getElementById(id);
+        div.remove();
+      }
+    </script>
+    <script type="text/javascript" src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=1ceaeea95baa22187e38b6237be697a2&libraries=services,clusterer"></script>
+  </head>
+  <body>
+    <noscript>Page for Fail Rendering</noscript>
+    <div id="root"></div>
+  </body>
+</html>

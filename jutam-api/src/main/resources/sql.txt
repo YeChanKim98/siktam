@@ -1,0 +1,74 @@
+-- -- 리뷰 데이터 : 현재 사용 X, 유지만 함
+-- insert into simple_review(place_id, user_id, recmnd, content) values(1, 'user', 'good','Good');
+-- insert into simple_review(place_id, user_id, recmnd, content) values(2, 'user', 'Bad','Bad');
+-- insert into simple_review(place_id, user_id, recmnd, content) values(3, 'test', 'good','Nice');
+-- insert into simple_review(place_id, user_id, recmnd, content) values(4, 'user', 'good','Good');
+-- insert into simple_review(place_id, user_id, recmnd, content) values(5, 'user', 'good','b');
+-- insert into simple_review(place_id, user_id, recmnd, content) values(6, 'user', 'Bad','p');
+-- insert into simple_review(place_id, user_id, recmnd, content) values(7, 'Admin', 'good', 'SoSo');
+
+
+
+
+
+
+
+
+
+
+
+
+--
+--
+-- -- 한줄리뷰
+-- create table if not exists simple_review(
+--     review_id int primary key auto_increment,
+--     place_id int not null,
+--     user_id varchar(25) not null,
+--     recmnd varchar(5) not null,
+--     content varchar(55) not null,
+--     review_date timestamp default current_timestamp
+-- );
+--
+
+-- 현재 사용 X
+
+-- 예약
+-- create table if not exists reserve(
+--     rsrv_seq int primary key auto_increment,
+--     rsrv_pla int not null,
+--     req_user varchar(25) not null,
+--     req_tel varchar(15) not null,
+--     rsrv_cnt int not null,
+--     rsrv_time datetime not null,
+--     req_time timestamp default current_timestamp,
+--     rsrv_pms varchar(6) not null default 'wait'
+--     );
+
+-- 리뷰
+-- create table review(
+--     review_id int primary key auto_increment,
+--     user_id varchar(25) not null,
+--     place_id varchar(25) not null,
+--     rate int not null,
+--     content varchar(255) not null,
+--     review_date timestamp default current_timestamp
+-- );
+
+-- 검색 후 추천 관련
+-- create table recommend_place(
+--    place_id varchar(25) not null,
+--    category varchar(25) not null,
+--    action varchar(20) not null,
+--    location varchar(20) not null,
+--    user_id varchar(25) not null,
+--    user_age tinyint(3),
+--    user_gender varchar(7),
+--    primary key(place_id, category, action)
+-- );
+
+
+-- insert into simple_review(place_id, user_id, recmnd, content) values(123456, '1234', 'good','YEA');
+--insert into user(id, password, name, nickname, email, age) values('Admin', 'Admin', 'YeChan', 'Admin_YeChan','Admin@naver.com','25');
+--insert into user(id, password, name, nickname, email, age) values('Axios_Tester', 'asd', 'Tester', 'TestAccount','Tester@naver.com','600');
+--insert into user(id, password, name, nickname, email, age) values('ReactCSSTester', 'qwe', 'Tester02', 'TestAccount02','Tester02@naver.com','002');

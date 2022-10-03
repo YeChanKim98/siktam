@@ -1,0 +1,88 @@
+/*마이페이지 - 내가 쓴 리뷰*/
+
+
+/*별점*/
+.star-rating {
+    display: flex;
+    margin-left: 15px;
+    flex-direction: row-reverse;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    justify-content: space-around;
+    padding: 0 0.2em;
+    text-align: center;
+    width: 5em;
+}
+
+.star-rating input {
+    display: none;
+}
+
+.star-rating label {
+    -webkit-text-fill-color:rgb(230, 230, 230);
+    cursor: pointer;
+}
+
+.emptyStar{
+    -webkit-text-fill-color:rgb(230, 230, 230);
+}
+
+.pipe{
+    color: rgb(185, 185, 185);
+}
+
+.star-rating :checked ~ label , .fillStar{
+    -webkit-text-fill-color: gold;
+}
+
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+    -webkit-text-fill-color: rgba(250, 239, 123, 0.733)
+}
+
+/*각 리뷰 div*/
+.getReview{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(216, 216, 216);
+}
+
+/* 리뷰 장소 정보 */
+.reviewPlace{
+    float: left;
+    margin-right: 10px;
+    padding-right: 10px;
+    border: 1px solid rgb(209, 221, 255);
+}
+
+.myReview{
+    display: inline-block;
+} 
+
+.reviewContent{
+    overflow: hidden;
+}
+
+.reviewDate{
+    font-size: small;
+}
+
+.reviewAction{
+    float: right;
+    display: inline-block;
+}
+
+.reviewAction a{
+    color: black;
+}
+
+/*리뷰 목록 중 수정,삭제*/
+.reviewUpdate:hover{
+    font-weight: bold;
+    color: blue;
+}
+
+.reviewDelete:hover{
+    font-weight: bold;
+    color: red;
+}

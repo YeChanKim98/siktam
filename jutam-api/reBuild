@@ -1,0 +1,4 @@
+sudo rm -r ./build
+sudo ./gradlew build
+sudo java -jar ./build/libs/searchplay-0.0.1-SNAPSHOT.jar
+

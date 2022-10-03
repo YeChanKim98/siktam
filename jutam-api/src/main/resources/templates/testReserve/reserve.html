@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Reserve test</title>
+</head>
+<body>
+<h3>
+    예약 신청
+</h3>
+    <form action="/reserve/request" method="post">
+        <input type="text" name="rsrv_pla" th:value="${session.rsrv_pla}"><br>
+        <input type="text" name="rsrv_pms" th:value="${session.rsrv_pms}"><br>
+        * 예약자: <input type="text" name="req_user" th:value="${session.req_user}"><br>
+        * 전화번호: <input type="text" name="req_tel" th:value="${session.req_tel}"><br>
+        * 예약일 및 예약시간: <input type="datetime-local" name="rsrv_time"><br>
+        * 예약인원: <input type="text" name="rsrv_cnt" value="3"><br>
+        <input type="submit" value="예약 신청"><input type="reset" value="취소">
+    </form>
+<button name="btn" type="button" th:onclick="location.href='reserve/getReserve/user/${session.req_user}'">내 예약관리</button>
+</body>
+</html>

@@ -1,0 +1,54 @@
+
+.simpleReviewContent_Bad{
+    position:relative;
+    width:250px;
+    height:40px;
+    padding-left: 10px;
+    background:rgb(255, 161, 161);
+    border-radius: 5px;
+    float: left;
+}
+
+.simpleReviewContent_Good{
+    position:relative;
+    width:250px;
+    height:40px;
+    padding-left: 10px;
+    background:rgb(180, 218, 250);
+    border-radius: 5px;
+    float: left;
+}
+
+.reviewPlace{
+    float: left;
+}
+
+.simpleReviewDate{
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.simpleReview{
+    height:50px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(216, 216, 216);
+}
+
+.simpleReviewAction{
+    float: right;
+}
+
+.simpleReviewAction a{
+    color:black;
+}
+
+.reviewUpdate:hover{
+    font-weight: bold;
+    color: Blue;
+}
+
+.reviewDelete:hover{
+    font-weight: bold;
+    color: red;
+}
