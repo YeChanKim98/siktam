@@ -55,8 +55,6 @@ function ServiceMain(){
     // 메뉴 비교 가게 리스트 초기화
     useEffect(()=>{window.localStorage.setItem('ComparePlace',JSON.stringify([]));},[]);
 
-    
-
     // ESC키를 통한 모달 닫기
     window.onkeyup = function(e) {
         var key = e.keyCode ? e.keyCode : e.which;
@@ -69,7 +67,6 @@ function ServiceMain(){
     // 엑시오스 객체
     const api = axios.create({
 	    baseURL : 'http://52.79.235.67:80/api',
-        // 내부용으로 만들어야함
         credentials: true, 
     });
     
@@ -181,7 +178,7 @@ function ServiceMain(){
                     lat: place.lat,
                     lng: place.lng,
                 },
-                content: place.name,
+                title: place.name,
             })
             bounds.extend(new kakao.maps.LatLng(place.lat,place.lng)); // 각 장소의 좌표 등록
             return(
@@ -206,7 +203,6 @@ function ServiceMain(){
             }
         )); // setPlaceRender
         setMarkers(markers);
-	console.log(markers);
         getPlaceList.length > 0 && RenderPage(page,placeSize); // 페이지네이션 함수 : 정보가 1개 이상 있을때만 작동
     } // RenderSearchList
 
@@ -413,7 +409,7 @@ function ServiceMain(){
                 <MapTypeControl position={kakao.maps.ControlPosition.TOPRIGHT}/>
 
                 {/* 맵핀 띄우기 */}
-                {markers.map((marker) => (
+	        {markers.map((marker) => (
                         <MapMarker
                             key={`marker-${marker.content}-${marker.position.lat},${marker.position.lng}`}
                             position={marker.position} onClick={() => setInfo(marker)}>
@@ -421,7 +417,7 @@ function ServiceMain(){
                                 <div style={{color:"#000"}}>{marker.content}</div>
                             )}
                         </MapMarker>
-                    
+
                 ))}
 
                 {/* 검색 및 검색 결과 창 */}

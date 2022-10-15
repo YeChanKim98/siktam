@@ -246,3 +246,28 @@
 [Controller] 장소 검색 요청
 [Service] 검색 요청 및 메소드 분류
 노옵션
+[Controller] 장소 검색 요청
+[Service] 검색 요청 및 메소드 분류
+카테고리만
+[Controller] 장소 검색 요청
+[Service] 검색 요청 및 메소드 분류
+모든 옵션
+[Repository] 모든 옵션을 통한 장소 검색 : 
+ -> Category : ch
+ -> Money : 29000
+ -> people : 2
+ -> calc : 14500
+[Controller] 장소 검색 요청
+[Service] 검색 요청 및 메소드 분류
+노옵션
+[Controller] 장소 검색 요청
+[Service] 검색 요청 및 메소드 분류
+모든 옵션
+[Repository] 모든 옵션을 통한 장소 검색 : 
+ -> Category : ch
+ -> Money : 35000
+ -> people : 1
+ -> calc : 35000
+[Controller] 장소 검색 요청
+[Service] 검색 요청 및 메소드 분류
+노옵션
