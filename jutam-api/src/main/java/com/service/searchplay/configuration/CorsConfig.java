@@ -10,6 +10,6 @@ public class CorsConfig implements WebMvcConfigurer {
         registry.addMapping("/**")
                 .allowedOrigins("*")
                 .allowedMethods("GET", "POST");
-                // .response.setHeader("Access-Control-Allow-Origin", "http://127.0.0.1:8090");
+                //.response.setHeader("Access-Control-Allow-Origin", "http://127.0.0.1:8080");
     }
 }

@@ -1,0 +1,248 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.5)
+
+2022-10-13 14:50:05.367  INFO 70592 --- [           main] c.s.searchplay.SearchplayApplication     : Starting SearchplayApplication using Java 11.0.16 on ip-172-31-44-231 with PID 70592 (/home/ubuntu/siktam/jutam-api/build/libs/searchplay-0.0.1-SNAPSHOT.jar started by root in /home/ubuntu/siktam/jutam-api)
+2022-10-13 14:50:05.371  INFO 70592 --- [           main] c.s.searchplay.SearchplayApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-10-13 14:50:06.615  INFO 70592 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-13 14:50:06.644  INFO 70592 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 0 JPA repository interfaces.
+2022-10-13 14:50:07.552  INFO 70592 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-10-13 14:50:07.566  INFO 70592 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-13 14:50:07.567  INFO 70592 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-10-13 14:50:07.696  INFO 70592 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-13 14:50:07.696  INFO 70592 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2162 ms
+2022-10-13 14:50:07.825  INFO 70592 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-13 14:50:08.018  INFO 70592 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-13 14:50:08.184  INFO 70592 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-13 14:50:08.245  INFO 70592 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.7.Final
+2022-10-13 14:50:08.502  INFO 70592 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-13 14:50:08.635  INFO 70592 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-10-13 14:50:09.415  INFO 70592 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-13 14:50:09.425  INFO 70592 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-13 14:50:09.625  WARN 70592 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-13 14:50:10.032  INFO 70592 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-13 14:50:10.044  INFO 70592 --- [           main] c.s.searchplay.SearchplayApplication     : Started SearchplayApplication in 5.506 seconds (JVM running for 6.154)
+2022-10-13 14:50:13.254  INFO 70592 --- [0.1-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-13 14:50:13.256  INFO 70592 --- [0.1-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-13 14:50:13.257  INFO 70592 --- [0.1-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+[Controller] 장소 검색 요청
+[Service] 검색 요청 및 메소드 분류
+노옵션
+[Controller] 장소 검색 요청
+[Service] 검색 요청 및 메소드 분류
+노옵션
+[Controller] 장소 검색 요청
+[Service] 검색 요청 및 메소드 분류
+노옵션
+[Controller] 장소 검색 요청
+[Service] 검색 요청 및 메소드 분류
+노옵션
+[Controller] 1015702933의 메뉴 정보 요청
+[Service] 메뉴정보 요청
+[Repository] 메뉴정보 요청
+[Controller] 1015702933의 메뉴 정보 요청
+[Service] 메뉴정보 요청
+[Repository] 메뉴정보 요청
+[Controller] 1044173569의 메뉴 정보 요청
+[Service] 메뉴정보 요청
+[Repository] 메뉴정보 요청
+[Controller] 장소 검색 요청
+[Service] 검색 요청 및 메소드 분류
+카테고리만
+[Controller] 11271182의 메뉴 정보 요청
+[Service] 메뉴정보 요청
+[Repository] 메뉴정보 요청
+[Controller] 12057489의 메뉴 정보 요청
+[Service] 메뉴정보 요청
+[Repository] 메뉴정보 요청
+[Controller] 1279716624의 메뉴 정보 요청
+[Service] 메뉴정보 요청
+[Repository] 메뉴정보 요청
+[Controller] 1188662083의 메뉴 정보 요청
+[Service] 메뉴정보 요청
+[Repository] 메뉴정보 요청
+[Controller] 12057489의 메뉴 정보 요청
+[Service] 메뉴정보 요청
+[Repository] 메뉴정보 요청
+[Controller] 1279716624의 메뉴 정보 요청
+[Service] 메뉴정보 요청
+[Repository] 메뉴정보 요청
+[Controller] 12057489의 메뉴 정보 요청
+[Service] 메뉴정보 요청
+[Repository] 메뉴정보 요청
+[Controller] 1154583764의 메뉴 정보 요청
+[Service] 메뉴정보 요청
+[Repository] 메뉴정보 요청
+[Controller] 1217313952의 메뉴 정보 요청
+[Service] 메뉴정보 요청
+[Repository] 메뉴정보 요청
+[Controller] 1279716624의 메뉴 정보 요청
+[Service] 메뉴정보 요청
+[Repository] 메뉴정보 요청
+[Controller] 119642637의 메뉴 정보 요청
+[Service] 메뉴정보 요청
+[Repository] 메뉴정보 요청
+[Controller] 119642637의 메뉴 정보 요청
+[Service] 메뉴정보 요청
+[Repository] 메뉴정보 요청
+[Controller] 20133060의 메뉴 정보 요청
+[Service] 메뉴정보 요청
+[Repository] 메뉴정보 요청
+[Controller] 2034304205의 메뉴 정보 요청
+[Service] 메뉴정보 요청
+[Repository] 메뉴정보 요청
+[Controller] 장소 검색 요청
+[Service] 검색 요청 및 메소드 분류
+카테고리만
+[Controller] 1188662083의 메뉴 정보 요청
+[Service] 메뉴정보 요청
+[Repository] 메뉴정보 요청
+[Controller] 119642637의 메뉴 정보 요청
+[Service] 메뉴정보 요청
+[Repository] 메뉴정보 요청
+[Controller] 1253437846의 메뉴 정보 요청
+[Service] 메뉴정보 요청
+[Repository] 메뉴정보 요청
+[Controller] 1154583764의 메뉴 정보 요청
+[Service] 메뉴정보 요청
+[Repository] 메뉴정보 요청
+[Controller] 1253437846의 메뉴 정보 요청
+[Service] 메뉴정보 요청
+[Repository] 메뉴정보 요청
+[Controller] 1339368744의 메뉴 정보 요청
+[Service] 메뉴정보 요청
+[Repository] 메뉴정보 요청
+[Controller] 1339368744의 메뉴 정보 요청
+[Service] 메뉴정보 요청
+[Repository] 메뉴정보 요청
+[Controller] 장소 검색 요청
+[Service] 검색 요청 및 메소드 분류
+카테고리만
+[Controller] 장소 검색 요청
+[Service] 검색 요청 및 메소드 분류
+카테고리만
+[Controller] 1287754880의 메뉴 정보 요청
+[Service] 메뉴정보 요청
+[Repository] 메뉴정보 요청
+[Controller] 장소 검색 요청
+[Service] 검색 요청 및 메소드 분류
+카테고리만
+[Controller] 장소 검색 요청
+[Service] 검색 요청 및 메소드 분류
+노옵션
+[Controller] 장소 검색 요청
+[Service] 검색 요청 및 메소드 분류
+노옵션
+[Controller] 장소 검색 요청
+[Service] 검색 요청 및 메소드 분류
+모든 옵션
+[Repository] 모든 옵션을 통한 장소 검색 : 
+ -> Category : jp
+ -> Money : 10000
+ -> people : 1
+ -> calc : 10000
+[Controller] 장소 검색 요청
+[Service] 검색 요청 및 메소드 분류
+카테고리만
+[Controller] 장소 검색 요청
+[Service] 검색 요청 및 메소드 분류
+카테고리만
+[Controller] 장소 검색 요청
+[Service] 검색 요청 및 메소드 분류
+카테고리만
+[Controller] 장소 검색 요청
+[Service] 검색 요청 및 메소드 분류
+인원과 식비만
+[Repository] 가격 인원수를 통한 장소 검색 : 
+[Controller] 장소 검색 요청
+[Service] 검색 요청 및 메소드 분류
+모든 옵션
+[Repository] 모든 옵션을 통한 장소 검색 : 
+ -> Category : jp
+ -> Money : 27000
+ -> people : 3
+ -> calc : 9000
+[Controller] 1847656678의 메뉴 정보 요청
+[Service] 메뉴정보 요청
+[Repository] 메뉴정보 요청
+[Controller] 1847656678의 메뉴 정보 요청
+[Service] 메뉴정보 요청
+[Repository] 메뉴정보 요청
+[Controller] 1847656678의 메뉴 정보 요청
+[Service] 메뉴정보 요청
+[Repository] 메뉴정보 요청
+[Controller] 장소 검색 요청
+[Service] 검색 요청 및 메소드 분류
+카테고리만
+[Controller] 장소 검색 요청
+[Service] 검색 요청 및 메소드 분류
+카테고리만
+[Controller] 장소 검색 요청
+[Service] 검색 요청 및 메소드 분류
+모든 옵션
+[Repository] 모든 옵션을 통한 장소 검색 : 
+ -> Category : jp
+ -> Money : 17000
+ -> people : 2
+ -> calc : 8500
+[Controller] 1847656678의 메뉴 정보 요청
+[Service] 메뉴정보 요청
+[Repository] 메뉴정보 요청
+[Controller] 782093625의 메뉴 정보 요청
+[Service] 메뉴정보 요청
+[Repository] 메뉴정보 요청
+[Controller] 650010069의 메뉴 정보 요청
+[Service] 메뉴정보 요청
+[Repository] 메뉴정보 요청
+[Controller] 장소 검색 요청
+[Service] 검색 요청 및 메소드 분류
+인원과 식비만
+[Repository] 가격 인원수를 통한 장소 검색 : 
+[Controller] 1127902991의 메뉴 정보 요청
+[Service] 메뉴정보 요청
+[Repository] 메뉴정보 요청
+[Controller] 장소 검색 요청
+[Service] 검색 요청 및 메소드 분류
+카테고리만
+[Controller] 111495501의 메뉴 정보 요청
+[Service] 메뉴정보 요청
+[Repository] 메뉴정보 요청
+[Controller] 1318472897의 메뉴 정보 요청
+[Service] 메뉴정보 요청
+[Repository] 메뉴정보 요청
+[Controller] 1287754880의 메뉴 정보 요청
+[Service] 메뉴정보 요청
+[Repository] 메뉴정보 요청
+[Controller] 장소 검색 요청
+[Service] 검색 요청 및 메소드 분류
+모든 옵션
+[Repository] 모든 옵션을 통한 장소 검색 : 
+ -> Category : jp
+ -> Money : 27000
+ -> people : 3
+ -> calc : 9000
+[Controller] 장소 검색 요청
+[Service] 검색 요청 및 메소드 분류
+모든 옵션
+[Repository] 모든 옵션을 통한 장소 검색 : 
+ -> Category : jp
+ -> Money : 10000
+ -> people : 1
+ -> calc : 10000
+[Controller] 장소 검색 요청
+[Service] 검색 요청 및 메소드 분류
+카테고리만
+[Controller] 1287754880의 메뉴 정보 요청
+[Service] 메뉴정보 요청
+[Repository] 메뉴정보 요청
+[Controller] 1318472897의 메뉴 정보 요청
+[Service] 메뉴정보 요청
+[Repository] 메뉴정보 요청
+[Controller] 장소 검색 요청
+[Service] 검색 요청 및 메소드 분류
+노옵션

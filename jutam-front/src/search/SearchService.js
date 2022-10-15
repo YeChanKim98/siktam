@@ -68,7 +68,7 @@ function ServiceMain(){
 
     // 엑시오스 객체
     const api = axios.create({
-        baseURL : 'http://1.209.148.228:2221/api',
+	    baseURL : 'http://52.79.235.67:80/api',
         // 내부용으로 만들어야함
         credentials: true, 
     });
@@ -206,6 +206,7 @@ function ServiceMain(){
             }
         )); // setPlaceRender
         setMarkers(markers);
+	console.log(markers);
         getPlaceList.length > 0 && RenderPage(page,placeSize); // 페이지네이션 함수 : 정보가 1개 이상 있을때만 작동
     } // RenderSearchList
 
